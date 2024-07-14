@@ -1,0 +1,25 @@
+:root{
+    --box:2px solid red;
+    --theme-color:orange;
+    --shadow:10px 10px var(--theme-color);
+    --space:5px;
+    --font:40px;
+}
+
+.box-1{
+    border:var(--box);
+    background-color: var(--theme-color);
+    box-shadow: var(--shadow);
+    margin: var(--space);
+    font-size:var(--font);
+}
+.box-2{
+    border:var(--box);
+    margin: var(--space);
+}
+.box-3{
+    border:var(--box);
+    background-color: var(--theme-color);
+    margin: var(--space);
+    box-shadow: var(--shadow);
+}

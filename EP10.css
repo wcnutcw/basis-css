@@ -1,0 +1,33 @@
+li{
+    padding: 0.25rem;
+    margin:0.25rem;
+    /* list-style สัญลักษณ์หน้าข้อความ*/
+    list-style: none;
+}
+
+li:first-child{
+    background-color: red;
+}
+
+li:last-child{
+    background-color: orange;
+}
+
+li:nth-child(3){
+    background-color: green;
+}
+
+li:nth-child(4){
+    background-color: aqua;
+}
+
+li:nth-last-child(3){
+    background-color: yellow;
+}
+
+li:nth-child(3n){
+    background-color: blue;
+}
+
+
+

@@ -1,0 +1,41 @@
+.grid-container{
+    display: grid;
+    /* 2 column */
+    /* grid-template-columns: 2fr 4fr; */
+    /* 3 row */
+    /* grid-template-rows: 1fr 5fr 1fr; */
+
+    grid-template-areas: 
+    'header header'
+    'sidebar content'    
+    'footer footer'
+    ;
+    /* เขียนแบบลดรูปจาก grid-template ได้*/
+    grid-template: 
+    'header header'1fr
+    'sidebar content'5fr    
+    'footer footer'1fr
+    /2fr 4fr;
+}
+
+.header-item{
+    background-color: greenyellow;
+    grid-area: header;
+}
+
+.content-item{
+    background-color: orange;
+    grid-area: content;
+}
+
+.footer-item{
+    background-color: black;
+    color: white;
+    grid-area: footer;
+}
+
+.sidebar-item{
+    background-color: blue;
+    grid-area: sidebar;
+}
+

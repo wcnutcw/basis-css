@@ -1,0 +1,35 @@
+.box-1{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border: 2px solid black;
+    margin: 200px;
+
+    /* ย้ายตำแหน่งกล่อง */
+    transform: translate(200px,300px);
+    transform: rotate(45deg);
+}
+
+.box-2{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border: 2px solid black;
+
+    /* Transform */
+    transform: scale(2,3);
+}
+
+.box-3{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border: 2px solid black;
+
+    /* Transform */
+    /* transform: skewX(10deg);
+    transform: skewY(10deg); */
+    /* เขียนย่อได้ */
+    transform: skew(10deg,20deg);
+}
+

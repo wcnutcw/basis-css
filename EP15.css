@@ -1,0 +1,29 @@
+body{
+    background-color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.box{
+    background: orange;
+    width: 100px;
+    height: 100px;
+    /* transition-property: background-color; */
+    /* รอ2วิในการเปลี่ยนแปลง */
+    /* transition-duration: 2s;
+    transition-timing-function: ease-in; */
+    /* รอ3วิก่อนเริ่มทำงาน */
+    /* transition-delay: 3s ; */
+    /* เขียนแบบย่อ */
+    /* transition: background 3s , width 3s , border-radius 3s ease-in 3s; */
+    /* ใช้ all ให้ property ทำพร้อมกัน และ เขียนแบบลดรูป */
+    transition: all 3s ease-in 0.5s;
+}
+
+.box:hover{
+    background-color: red;
+    width: 300px;
+    border-radius: 50%;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;   /* ก็คือกำหนดตามค่าจริง โดยเวลาใช้ width หรือขนาดต่างๆ เพราะ มันยังไม่ใช่ค่าจริงมันรวม margin paddingด้วย*/
+        }
+        .container{
+            width: 960px;
+            margin :30px auto;
+        }
+        body{
+            line-height: 1.4em;    /*line-height : ระยะห่างในแนวตั้ง*/
+        }
+        .box{
+            background-color: #f4f4f4;
+            border:1px solid #333;
+            padding :10px;
+            margin-bottom: 15px;
+        }
+        #box-2{
+            float: left;
+            width: 70%;
+        }
+        #box-3{
+            float: right;
+            width: 30%;
+        }
+        #box-4{
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="box-1" class="box">
+            <h1>Title 1</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum, itaque.</p>
+        </div>
+        <div id="box-2" class="box">
+            <h1>Title 2</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum, itaque.</p>
+        </div>
+        <div id="box-3" class="box">
+            <h1>Title 3</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum, itaque.</p>
+        </div>
+        <div id="box-4" class="box">
+            <h1>Title 4</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum, itaque.</p>
+        </div>
+    </div>
+</body>
+</html>
